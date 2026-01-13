@@ -1,0 +1,44 @@
+---
+title: "Sigma Rules: What's New in 2025"
+date: "2025-12-15"
+tags: ["sigma", "detection", "update"]
+summary: "A comprehensive overview of the latest Sigma rule format changes and new detection capabilities."
+---
+
+The Sigma project continues to evolve with significant updates in 2025. This post covers the key changes and how to leverage them in your detection engineering workflow.
+
+## New Correlation Syntax
+
+The most requested feature has finally arrived. Sigma now supports native correlation rules that can detect patterns across multiple events:
+
+```yaml
+title: Suspicious Process Chain
+correlation:
+  type: event_count
+  rules:
+    - process_creation_*
+  group-by:
+    - ComputerName
+  timespan: 5m
+  condition:
+    gte: 10
+```
+
+## Improved Field Modifiers
+
+Several new field modifiers make rule writing more expressive:
+
+- `|cidr` - Match IP addresses against CIDR ranges
+- `|windash` - Normalize Windows command line dash variations
+- `|expand` - Expand environment variables for comparison
+
+## Migration Guide
+
+If you're running older Sigma rules, the conversion is straightforward. The `sigma-cli` tool now includes a migration command:
+
+```bash
+sigma migrate --input old-rules/ --output new-rules/
+```
+
+The tooling will automatically update deprecated syntax while preserving detection logic.
+```

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "sigma-rules",
+    "name": "Sigma Rules",
+    "description": "Generic signature format for SIEM systems. Write once, deploy everywhere.",
+    "tags": ["detection", "siem", "signatures"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/sigma",
+    "docs": "https://sigmahq.io",
+    "screenshot": "/images/projects/sigma-rules.png"
+  },
+  {
+    "id": "thor-lite",
+    "name": "THOR Lite",
+    "description": "Lightweight IOC and YARA scanner for compromise assessment.",
+    "tags": ["scanner", "yara", "forensics"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor-lite",
+    "download": "https://www.nextron-systems.com/thor-lite",
+    "screenshot": "/images/projects/thor-lite.png"
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "description": "Simple IOC scanner for detecting known threats using YARA rules and hash lookups.",
+    "tags": ["scanner", "yara", "ioc"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/Loki",
+    "screenshot": "/images/projects/loki.png"
+  },
+  {
+    "id": "yargen",
+    "name": "yarGen",
+    "description": "YARA rule generator for creating rules from malware samples.",
+    "tags": ["yara", "malware", "generator"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/yarGen",
+    "screenshot": "/images/projects/yargen.png"
+  },
+  {
+    "id": "fenrir",
+    "name": "Fenrir",
+    "description": "Bash-based IOC scanner for Unix systems with minimal dependencies.",
+    "tags": ["scanner", "unix", "bash"],
+    "status": "maintenance",
+    "github": "https://github.com/NextronSystems/Fenrir"
+  },
+  {
+    "id": "raccine",
+    "name": "Raccine",
+    "description": "Ransomware vaccine that intercepts and blocks common ransomware behaviors.",
+    "tags": ["ransomware", "defense", "windows"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/Raccine",
+    "screenshot": "/images/projects/raccine.png"
+  },
+  {
+    "id": "signature-base",
+    "name": "Signature Base",
+    "description": "Repository of YARA signatures used in various scanners and tools.",
+    "tags": ["yara", "signatures", "detection"],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/signature-base"
+  },
+  {
+    "id": "panopticon",
+    "name": "Panopticon",
+    "description": "Real-time threat hunting dashboard for security operations.",
+    "tags": ["dashboard", "threat-hunting", "soc"],
+    "status": "development",
+    "docs": "https://panopticon.dev"
+  }
+]

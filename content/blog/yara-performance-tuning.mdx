@@ -1,0 +1,25 @@
+---
+title: "YARA Performance Tuning for Large-Scale Scanning"
+date: "2025-11-28"
+tags: ["yara", "performance", "scanning"]
+summary: "Practical techniques for optimizing YARA rule performance when scanning at enterprise scale."
+---
+
+When scanning thousands of files across an enterprise, YARA performance becomes critical. Here are battle-tested techniques for keeping your scans fast.
+
+## String Optimization
+
+The most impactful optimization is in your string definitions. Prefer hex strings over text when possible:
+
+```yara
+rule Optimized_Detection {
+    strings:
+        // Faster: hex pattern
+        $hex = { 4D 5A 90 00 03 00 00 00 }
+        
+        // Slower: wide string with modifiers
+        $text = "suspicious" wide ascii nocase
+    
+    condition:
+        $hex and $text
+}
