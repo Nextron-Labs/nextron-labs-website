@@ -1,0 +1,19 @@
+[
+  "analysis-cockpit-manual",
+  "asgard-manual",
+  "aurora-agent-lite",
+  "aurora-agent-manual",
+  "broker-network-manual",
+  "cyberchef",
+  "detection-kb",
+  "elasticsearch-cluster-manual",
+  "finding-store",
+  "log-analysis-manual",
+  "reversinglabs-yara-rules",
+  "rule-info-pages",
+  "security-center-manual",
+  "thor-lite",
+  "thor-manual",
+  "thor-thunderstorm-setup-guide",
+  "thor-util-manual"
+]

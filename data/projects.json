@@ -1,73 +1,372 @@
 [
   {
-    "id": "sigma-rules",
-    "name": "Sigma Rules",
-    "description": "Generic signature format for SIEM systems. Write once, deploy everywhere.",
-    "tags": ["detection", "siem", "signatures"],
+    "id": "aptsimulator",
+    "name": "APTSimulator",
+    "description": "A toolset to make a system look as if it was the victim of an APT attack",
+    "tags": [
+      "apt"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/sigma",
-    "docs": "https://sigmahq.io",
-    "screenshot": "/images/projects/sigma-rules.png"
+    "github": "https://github.com/NextronSystems/APTSimulator",
+    "docs": "https://www.nextron-systems.com",
+    "screenshot": "/images/projects/aptsimulator.png"
   },
   {
-    "id": "thor-lite",
-    "name": "THOR Lite",
-    "description": "Lightweight IOC and YARA scanner for compromise assessment.",
-    "tags": ["scanner", "yara", "forensics"],
+    "id": "asgard-playbooks",
+    "name": "asgard-playbooks",
+    "description": "asgard-playbooks - Python project",
+    "tags": [
+      "security"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/thor-lite",
-    "download": "https://www.nextron-systems.com/thor-lite",
-    "screenshot": "/images/projects/thor-lite.png"
+    "github": "https://github.com/NextronSystems/asgard-playbooks"
   },
   {
-    "id": "loki",
-    "name": "Loki",
-    "description": "Simple IOC scanner for detecting known threats using YARA rules and hash lookups.",
-    "tags": ["scanner", "yara", "ioc"],
+    "id": "aurora-helpers",
+    "name": "aurora-helpers",
+    "description": "Helper scripts and configs to be used with Aurora Agent",
+    "tags": [
+      "security"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/Loki",
-    "screenshot": "/images/projects/loki.png"
+    "github": "https://github.com/NextronSystems/aurora-helpers"
   },
   {
-    "id": "yargen",
-    "name": "yarGen",
-    "description": "YARA rule generator for creating rules from malware samples.",
-    "tags": ["yara", "malware", "generator"],
+    "id": "binaryalert",
+    "name": "binaryalert",
+    "description": "BinaryAlert: Serverless, Real-time & Retroactive Malware Detection.",
+    "tags": [
+      "detection",
+      "malware"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/yarGen",
-    "screenshot": "/images/projects/yargen.png"
+    "github": "https://github.com/NextronSystems/binaryalert",
+    "docs": "https://binaryalert.io"
   },
   {
-    "id": "fenrir",
-    "name": "Fenrir",
-    "description": "Bash-based IOC scanner for Unix systems with minimal dependencies.",
-    "tags": ["scanner", "unix", "bash"],
-    "status": "maintenance",
-    "github": "https://github.com/NextronSystems/Fenrir"
-  },
-  {
-    "id": "raccine",
-    "name": "Raccine",
-    "description": "Ransomware vaccine that intercepts and blocks common ransomware behaviors.",
-    "tags": ["ransomware", "defense", "windows"],
+    "id": "cortex-analyzers",
+    "name": "Cortex-Analyzers",
+    "description": "Cortex Analyzers for Nextron Products",
+    "tags": [
+      "security"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/Raccine",
-    "screenshot": "/images/projects/raccine.png"
+    "github": "https://github.com/NextronSystems/Cortex-Analyzers"
   },
   {
-    "id": "signature-base",
-    "name": "Signature Base",
-    "description": "Repository of YARA signatures used in various scanners and tools.",
-    "tags": ["yara", "signatures", "detection"],
+    "id": "evtx-baseline",
+    "name": "evtx-baseline",
+    "description": "A repository hosting example goodware evtx logs containing sample software installation and basic user interaction",
+    "tags": [
+      "go"
+    ],
     "status": "active",
-    "github": "https://github.com/NextronSystems/signature-base"
+    "github": "https://github.com/NextronSystems/evtx-baseline",
+    "screenshot": "/images/projects/evtx-baseline.png"
   },
   {
-    "id": "panopticon",
-    "name": "Panopticon",
-    "description": "Real-time threat hunting dashboard for security operations.",
-    "tags": ["dashboard", "threat-hunting", "soc"],
-    "status": "development",
-    "docs": "https://panopticon.dev"
+    "id": "gimphash",
+    "name": "gimphash",
+    "description": "Imphash-like calculation on Golang binaries",
+    "tags": [
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/gimphash",
+    "screenshot": "/images/projects/gimphash.png"
+  },
+  {
+    "id": "go-elasticsearch",
+    "name": "go-elasticsearch",
+    "description": "Simple ElasticSearch API for Golang",
+    "tags": [
+      "api",
+      "client",
+      "elasticsearch",
+      "go",
+      "go-elasticsearch"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-elasticsearch"
+  },
+  {
+    "id": "go-handle",
+    "name": "go-handle",
+    "description": "Iterate over Windows Handles",
+    "tags": [
+      "windows",
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-handle"
+  },
+  {
+    "id": "go-ntlm-proxy-auth",
+    "name": "go-ntlm-proxy-auth",
+    "description": "Authorize to an NTLM Proxy for a HTTP(S) connection in Golang ",
+    "tags": [
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-ntlm-proxy-auth",
+    "screenshot": "/images/projects/go-ntlm-proxy-auth.svg"
+  },
+  {
+    "id": "go-osversion",
+    "name": "go-osversion",
+    "description": "Detect version of running os",
+    "tags": [
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-osversion"
+  },
+  {
+    "id": "go-priority",
+    "name": "go-priority",
+    "description": "Manipulate the priority of the GO program",
+    "tags": [
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-priority"
+  },
+  {
+    "id": "go-taskscheduler",
+    "name": "go-taskscheduler",
+    "description": "Connect to Windows Task Scheduler 2.0 with Golang",
+    "tags": [
+      "windows",
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/go-taskscheduler"
+  },
+  {
+    "id": "iocs",
+    "name": "iocs",
+    "description": "Indicators of compromise from to analysis and research by Nextron Threat Research team",
+    "tags": [
+      "ioc",
+      "threat-hunting"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/iocs",
+    "docs": "https://www.nextron-systems.com/blog/"
+  },
+  {
+    "id": "jsonlog",
+    "name": "jsonlog",
+    "description": "Definitions of structures used in THOR JSON logs",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/jsonlog"
+  },
+  {
+    "id": "nextron-helper-scripts",
+    "name": "nextron-helper-scripts",
+    "description": "Public tools, scripts or code snippets that can help when working with our products",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/nextron-helper-scripts"
+  },
+  {
+    "id": "openrelik-worker-thor-lite",
+    "name": "openrelik-worker-thor-lite",
+    "description": "openrelik-worker-thor-lite - Python project",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/openrelik-worker-thor-lite",
+    "screenshot": "/images/projects/openrelik-worker-thor-lite.png"
+  },
+  {
+    "id": "postfix2thunderstorm",
+    "name": "postfix2thunderstorm",
+    "description": "Postfix 2 Thor Thunderstorm",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/postfix2thunderstorm",
+    "screenshot": "/images/projects/postfix2thunderstorm.png"
+  },
+  {
+    "id": "ransomware-simulator",
+    "name": "ransomware-simulator",
+    "description": "Ransomware simulator written in Golang",
+    "tags": [
+      "go"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/ransomware-simulator",
+    "screenshot": "/images/projects/ransomware-simulator.png"
+  },
+  {
+    "id": "scanning-containers",
+    "name": "scanning-containers",
+    "description": "Guides and scripts for different uses cases regarding scanning containers with THOR",
+    "tags": [
+      "documentation"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/scanning-containers"
+  },
+  {
+    "id": "scanning-sql-databases",
+    "name": "scanning-sql-databases",
+    "description": "Guides and scripts for different uses cases regarding scanning SQL databases with THOR",
+    "tags": [
+      "documentation"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/scanning-sql-databases"
+  },
+  {
+    "id": "simplesyslog",
+    "name": "simplesyslog",
+    "description": "Simple SYSLOG client in Go",
+    "tags": [
+      "go",
+      "client"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/simplesyslog",
+    "screenshot": "/images/projects/simplesyslog.svg"
+  },
+  {
+    "id": "sysmon-config",
+    "name": "sysmon-config",
+    "description": "Sysmon configuration file template with default high-quality event tracing",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/sysmon-config"
+  },
+  {
+    "id": "ta-aurora",
+    "name": "TA-aurora",
+    "description": "Splunk Technology-AddOn for Aurora Sigma-Based EDR Agent. It helps parse and configure the necessary inputs to neatly consume Aurora EDR Agent Alerts into Splunk.",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/TA-aurora",
+    "screenshot": "/images/projects/ta-aurora.png"
+  },
+  {
+    "id": "thor-attck",
+    "name": "thor_attck",
+    "description": "THOR MITRE ATT&CK Framework Coverage",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor_attck",
+    "screenshot": "/images/projects/thor-attck.png"
+  },
+  {
+    "id": "thor-microsoft-defender-guide",
+    "name": "thor-microsoft-defender-guide",
+    "description": "THOR Integration Guide for Microsoft Defender ATP",
+    "tags": [
+      "documentation",
+      "integration"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor-microsoft-defender-guide"
+  },
+  {
+    "id": "thor-plugin",
+    "name": "thor-plugin",
+    "description": "Plugin interface for THOR APT Scanner",
+    "tags": [
+      "scanner",
+      "apt"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor-plugin"
+  },
+  {
+    "id": "thor2timesketch",
+    "name": "thor2timesketch",
+    "description": "thor2ts – A utility to convert THOR logs to Timesketch’s required format.",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor2timesketch",
+    "screenshot": "/images/projects/thor2timesketch.svg"
+  },
+  {
+    "id": "thunderstorm-collector",
+    "name": "thunderstorm-collector",
+    "description": "THOR Thunderstorm Collectors",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thunderstorm-collector",
+    "screenshot": "/images/projects/thunderstorm-collector.png"
+  },
+  {
+    "id": "thunderstormapi",
+    "name": "thunderstormAPI",
+    "description": "Python module to interact with THOR Thunderstorm service",
+    "tags": [
+      "python",
+      "api"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thunderstormAPI"
+  },
+  {
+    "id": "valhallaapi",
+    "name": "valhallaAPI",
+    "description": "Valhalla API Client",
+    "tags": [
+      "api",
+      "client"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/valhallaAPI"
+  },
+  {
+    "id": "veeam-integration",
+    "name": "veeam-integration",
+    "description": "Integration of THOR into Veeam Backup & Replication",
+    "tags": [
+      "integration"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/veeam-integration",
+    "screenshot": "/images/projects/veeam-integration.png"
+  },
+  {
+    "id": "velociraptor-artifacts-thor",
+    "name": "velociraptor-artifacts-thor",
+    "description": "Thor Artifacts for Velociraptor",
+    "tags": [
+      "apt"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/velociraptor-artifacts-thor"
+  },
+  {
+    "id": "yaramod",
+    "name": "yaramod",
+    "description": "Parsing of YARA rules into AST and building new rulesets in C++.",
+    "tags": [
+      "yara"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/yaramod",
+    "screenshot": "/images/projects/yaramod.svg"
   }
 ]
