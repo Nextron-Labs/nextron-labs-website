@@ -13,12 +13,11 @@ jobs:
     if: github.event.label.name == 'automerge'
     runs-on: ubuntu-latest
     steps:
-      - name: Merge PR as fjroth
+      - name: Merge PR as fjroth (merge commit)
         env:
           GH_TOKEN: ${{ secrets.FJROTH_PAT }}
         run: |
-          gh pr merge \
-            "${{ github.event.pull_request.number }}" \
+          gh pr merge "${{ github.event.pull_request.number }}" \
             --repo "${{ github.repository }}" \
-            --squash \
+            --merge \
             --delete-branch
