@@ -1,0 +1,24 @@
+name: Auto-merge on label (fjroth)
+
+on:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    if: github.event.label.name == 'automerge'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge PR as fjroth
+        env:
+          GH_TOKEN: ${{ secrets.FJROTH_PAT }}
+        run: |
+          gh pr merge \
+            "${{ github.event.pull_request.number }}" \
+            --repo "${{ github.repository }}" \
+            --squash \
+            --delete-branch
