@@ -261,17 +261,6 @@
     "screenshot": "/images/projects/ta-aurora.png"
   },
   {
-    "id": "thor-attck",
-    "name": "thor_attck",
-    "description": "THOR MITRE ATT&CK Framework Coverage",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/thor_attck",
-    "screenshot": "/images/projects/thor-attck.png"
-  },
-  {
     "id": "thor-microsoft-defender-guide",
     "name": "thor-microsoft-defender-guide",
     "description": "THOR Integration Guide for Microsoft Defender ATP",
