@@ -11,6 +11,7 @@ export interface BlogPost {
   tags: string[]
   summary: string
   content: string
+  titleImage?: string
 }
 
 export async function getBlogPosts(): Promise<BlogPost[]> {
@@ -35,6 +36,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
         tags: data.tags || [],
         summary: data.summary || "",
         content,
+        titleImage: data.titleImage || undefined,
       }
     })
 
@@ -58,5 +60,6 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
     tags: data.tags || [],
     summary: data.summary || "",
     content,
+    titleImage: data.titleImage || undefined,
   }
 }
