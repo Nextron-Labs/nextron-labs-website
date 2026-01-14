@@ -15,6 +15,34 @@
     "screenshot": "https://github.com/Neo23x0/Loki-RS/raw/master/images/loki-tui-1.png"
   },
   {
+    "id": "thor-lens",
+    "name": "THOR Lens",
+    "description": "THOR Lens is a CLI tool for analyzing THOR v11 Audit Trail JSONL logs, turning large, verbose scan outputs into usable forensic timelines and analyst-friendly views.",
+    "tags": [
+      "thor",
+      "tool",
+      "ai",
+      "analysis"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor-lens",
+    "docs": "https://github.com/NextronSystems/thor-lens/blob/master/README.md",
+    "screenshot": "https://github.com/NextronSystems/thor-lens/raw/master/images/thor-lens-front-page.png"
+  },
+  {
+    "id": "yargen-go",
+    "name": "yarGen Go",
+    "description": "A YARA rule generator",
+    "tags": [
+      "yara",
+      "tool"
+    ],
+    "status": "active",
+    "github": "https://github.com/Neo23x0/yarGen-Go",
+    "docs": "https://github.com/Neo23x0/yarGen-Go/blob/master/README.md",
+    "screenshot": "https://github.com/Neo23x0/yarGen-Go/raw/main/images/yargen-2.png"
+  },
+  {
     "id": "thunderstorm-collector",
     "name": "thunderstorm-collector",
     "description": "THOR Thunderstorm Collectors",
