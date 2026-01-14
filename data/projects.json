@@ -1,5 +1,20 @@
 [
   {
+    "id": "loki-rs",
+    "name": "Loki-RS",
+    "description": "High-performance, multi-threaded YARA & IOC scanner",
+    "tags": [
+      "scanner",
+      "yara",
+      "ioc",
+      "rust"
+    ],
+    "status": "active",
+    "github": "https://github.com/Neo23x0/Loki-RS",
+    "docs": "https://github.com/Neo23x0/Loki-RS/blob/master/README.md",
+    "screenshot": "https://github.com/Neo23x0/Loki-RS/raw/master/images/loki-tui-1.png"
+  },
+  {
     "id": "aptsimulator",
     "name": "APTSimulator",
     "description": "A toolset to make a system look as if it was the victim of an APT attack",
