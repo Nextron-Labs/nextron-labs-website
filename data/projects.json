@@ -27,7 +27,7 @@
     "status": "active",
     "github": "https://github.com/NextronSystems/thor-lens",
     "docs": "https://github.com/NextronSystems/thor-lens/blob/master/README.md",
-    "screenshot": "https://github.com/NextronSystems/thor-lens/raw/master/images/thor-lens-front-page.png"
+    "screenshot": "/images/projects/thor-lens-front-page.png"
   },
   {
     "id": "yargen-go",
