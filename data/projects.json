@@ -15,6 +15,103 @@
     "screenshot": "https://github.com/Neo23x0/Loki-RS/raw/master/images/loki-tui-1.png"
   },
   {
+    "id": "thunderstorm-collector",
+    "name": "thunderstorm-collector",
+    "description": "THOR Thunderstorm Collectors",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thunderstorm-collector",
+    "screenshot": "/images/projects/thunderstorm-collector.png"
+  },
+  {
+    "id": "openrelik-worker-thor-lite",
+    "name": "openrelik-worker-thor-lite",
+    "description": "openrelik-worker-thor-lite - Python project",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/openrelik-worker-thor-lite",
+    "screenshot": "/images/projects/openrelik-worker-thor-lite.png"
+  },
+  {
+    "id": "thor2timesketch",
+    "name": "thor2timesketch",
+    "description": "thor2ts - A utility to convert THOR logs to Timesketch's required format.",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thor2timesketch",
+    "screenshot": "/images/projects/thor2timesketch.svg"
+  },
+  {
+    "id": "veeam-integration",
+    "name": "veeam-integration",
+    "description": "Integration of THOR into Veeam Backup & Replication",
+    "tags": [
+      "integration"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/veeam-integration",
+    "screenshot": "/images/projects/veeam-integration.png"
+  },
+  {
+    "id": "velociraptor-artifacts-thor",
+    "name": "velociraptor-artifacts-thor",
+    "description": "Thor Artifacts for Velociraptor",
+    "tags": [
+      "apt"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/velociraptor-artifacts-thor"
+  },
+  {
+    "id": "postfix2thunderstorm",
+    "name": "postfix2thunderstorm",
+    "description": "Postfix 2 Thor Thunderstorm",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/postfix2thunderstorm",
+    "screenshot": "/images/projects/postfix2thunderstorm.png"
+  },
+  {
+    "id": "sysmon-config",
+    "name": "sysmon-config",
+    "description": "Sysmon configuration file template with default high-quality event tracing",
+    "tags": [
+      "security"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/sysmon-config"
+  },
+  {
+    "id": "thunderstormapi",
+    "name": "thunderstormAPI",
+    "description": "Python module to interact with THOR Thunderstorm service",
+    "tags": [
+      "python",
+      "api"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/thunderstormAPI"
+  },
+  {
+    "id": "valhallaapi",
+    "name": "valhallaAPI",
+    "description": "Valhalla API Client",
+    "tags": [
+      "api",
+      "client"
+    ],
+    "status": "active",
+    "github": "https://github.com/NextronSystems/valhallaAPI"
+  },
+  {
     "id": "aptsimulator",
     "name": "APTSimulator",
     "description": "A toolset to make a system look as if it was the victim of an APT attack",
@@ -190,28 +287,6 @@
     "github": "https://github.com/NextronSystems/nextron-helper-scripts"
   },
   {
-    "id": "openrelik-worker-thor-lite",
-    "name": "openrelik-worker-thor-lite",
-    "description": "openrelik-worker-thor-lite - Python project",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/openrelik-worker-thor-lite",
-    "screenshot": "/images/projects/openrelik-worker-thor-lite.png"
-  },
-  {
-    "id": "postfix2thunderstorm",
-    "name": "postfix2thunderstorm",
-    "description": "Postfix 2 Thor Thunderstorm",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/postfix2thunderstorm",
-    "screenshot": "/images/projects/postfix2thunderstorm.png"
-  },
-  {
     "id": "ransomware-simulator",
     "name": "ransomware-simulator",
     "description": "Ransomware simulator written in Golang",
@@ -255,16 +330,6 @@
     "screenshot": "/images/projects/simplesyslog.svg"
   },
   {
-    "id": "sysmon-config",
-    "name": "sysmon-config",
-    "description": "Sysmon configuration file template with default high-quality event tracing",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/sysmon-config"
-  },
-  {
     "id": "ta-aurora",
     "name": "TA-aurora",
     "description": "Splunk Technology-AddOn for Aurora Sigma-Based EDR Agent. It helps parse and configure the necessary inputs to neatly consume Aurora EDR Agent Alerts into Splunk.",
@@ -296,71 +361,6 @@
     ],
     "status": "active",
     "github": "https://github.com/NextronSystems/thor-plugin"
-  },
-  {
-    "id": "thor2timesketch",
-    "name": "thor2timesketch",
-    "description": "thor2ts – A utility to convert THOR logs to Timesketch’s required format.",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/thor2timesketch",
-    "screenshot": "/images/projects/thor2timesketch.svg"
-  },
-  {
-    "id": "thunderstorm-collector",
-    "name": "thunderstorm-collector",
-    "description": "THOR Thunderstorm Collectors",
-    "tags": [
-      "security"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/thunderstorm-collector",
-    "screenshot": "/images/projects/thunderstorm-collector.png"
-  },
-  {
-    "id": "thunderstormapi",
-    "name": "thunderstormAPI",
-    "description": "Python module to interact with THOR Thunderstorm service",
-    "tags": [
-      "python",
-      "api"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/thunderstormAPI"
-  },
-  {
-    "id": "valhallaapi",
-    "name": "valhallaAPI",
-    "description": "Valhalla API Client",
-    "tags": [
-      "api",
-      "client"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/valhallaAPI"
-  },
-  {
-    "id": "veeam-integration",
-    "name": "veeam-integration",
-    "description": "Integration of THOR into Veeam Backup & Replication",
-    "tags": [
-      "integration"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/veeam-integration",
-    "screenshot": "/images/projects/veeam-integration.png"
-  },
-  {
-    "id": "velociraptor-artifacts-thor",
-    "name": "velociraptor-artifacts-thor",
-    "description": "Thor Artifacts for Velociraptor",
-    "tags": [
-      "apt"
-    ],
-    "status": "active",
-    "github": "https://github.com/NextronSystems/velociraptor-artifacts-thor"
   },
   {
     "id": "yaramod",
